@@ -11,6 +11,11 @@
     {
       templates = rec {
 
+        c = {
+          path = ./c;
+          description = "C/C++ development environment";
+        };
+
         dhall = {
           path = ./dhall;
           description = "Dhall development environment";
