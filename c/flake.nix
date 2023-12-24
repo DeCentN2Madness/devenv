@@ -59,9 +59,10 @@
 
             # stdlib for cpp
             llvm.libcxx
-              
+
             # libs
             glm
+            libcs50                     # for Harvard CS50 course
             SDL2
             SDL2_gfx
           ];
