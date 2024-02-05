@@ -28,7 +28,8 @@
         buildInputs = with pkgs; [ node2nix nodejs pnpm yarn ];
 
         shellHook = ''
-          echo "node `${pkgs.nodejs}/bin/node --version`"
+          echo "node `${pkgs.nodejs}/bin/node --version`\n"
+          echo "ls -lAh `${pkgs.nodejs}/bin/`"
         '';
       };
     });
